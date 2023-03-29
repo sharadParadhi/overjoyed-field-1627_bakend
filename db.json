@@ -1,0 +1,807 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "hello",
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "title": "hello2",
+      "isCompleted": false
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "name": "xyz",
+      "roll": 909
+    },
+    {
+      "id": 1,
+      "name": "xyz",
+      "roll": 909
+    }
+  ],
+  "transactions": [],
+  "payees": [],
+  "data": [],
+  "books": [
+    {
+      "id": 1,
+      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+      "book_name": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "genre": "fiction",
+      "edition": "2021",
+      "publisher": "Bloomsbury",
+      "cost": 1299,
+      "borrowed": false
+    },
+    {
+      "id": 2,
+      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+      "book_name": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "genre": "tech",
+      "edition": "2021",
+      "publisher": "Bloomsbury",
+      "cost": 1000,
+      "borrowed": false
+    },
+    {
+      "id": 3,
+      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+      "book_name": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "genre": "history",
+      "edition": "2021",
+      "publisher": "Bloomsbury",
+      "cost": 400,
+      "borrowed": true
+    }
+  ],
+  "todosreduxcrud": [
+    {
+      "title": "LEARN DSA",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "learn Redux",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "Vivek",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "hello",
+      "status": false,
+      "id": 7
+    },
+    {
+      "title": "vivek",
+      "status": false,
+      "id": 8
+    }
+  ],
+  
+    "albums": [
+      {
+        "id": "1",
+        "name": "POWER UP",
+        "artist": "Vivek Goswami",
+        "genre": " Hard Rock",
+        "year": 2019,
+        "no_of_songs": "2",
+        "img": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/ba/07/bc/ba07bcdd-5129-1d5e-6267-8252f0e24829/20UMGIM69450.rgb.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "POWER UP",
+        "artist": "Vivek Goswami",
+        "genre": " Hard Rock",
+        "year": 2019,
+        "no_of_songs": "2",
+        "img": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/b0/ec/cb/b0eccb83-3ea8-4404-1747-9080482e5e8a/886448802198.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "POWER UP",
+        "artist": "Vivek Goswami",
+        "genre": " Hard Rock",
+        "year": 2019,
+        "no_of_songs": "2",
+        "img": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/b0/ec/cb/b0eccb83-3ea8-4404-1747-9080482e5e8a/886448802198.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "POWER UP",
+        "artist": "Vivek Goswami",
+        "genre": " Hard Rock",
+        "year": 2019,
+        "no_of_songs": "2",
+        "img": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/0d/39/fb/0d39fbc2-98b1-4e9d-a8e9-159139834fa6/20UMGIM80226.rgb.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "POWER UP",
+        "artist": "Vivek Goswami",
+        "genre": " Hard Rock",
+        "year": 2019,
+        "no_of_songs": "2",
+        "img": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/b0/ec/cb/b0eccb83-3ea8-4404-1747-9080482e5e8a/886448802198.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Starting Over",
+        "artist": " Mat and Savanna Shaw",
+        "genre": "Holiday",
+        "year": 2020,
+        "no_of_songs": "4",
+        "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2a/98/17/2a9817da-4d03-8517-c2e4-6b407d11b854/195269041267.png/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "name": "My Gift",
+        "artist": "Carrie Underwood",
+        "genre": "Holiday",
+        "year": 2019,
+        "no_of_songs": "2",
+        "img": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/ba/07/bc/ba07bcdd-5129-1d5e-6267-8252f0e24829/20UMGIM69450.rgb.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "Hey World",
+        "artist": "Lee Brice",
+        "genre": "Country",
+        "year": 2020,
+        "no_of_songs": "4",
+        "img": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/6d/30/9f/6d309fd1-6cdf-e50f-752c-3177bf24f0a7/715187954762.png/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "name": "A Holly Dolly Christmas",
+        "artist": "Dolly Parton",
+        "genre": "Holiday",
+        "year": 2017,
+        "no_of_songs": "3",
+        "img": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/84/dc/bd/84dcbda7-c5bb-357b-7a5e-6d0304b9a90f/190296823428.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "name": "Songs You Don't Know By Heart",
+        "artist": "Jimmy Buffett",
+        "genre": "K-Pop",
+        "year": 2017,
+        "no_of_songs": "3",
+        "img": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/99/ed/c0/99edc06d-9110-d9db-eae9-665dc77200b3/JimmyBuffett-SongsYouDontKnowByHeart-DigitalCover-3000x3000.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "name": "Believe (Deluxe)",
+        "artist": "Andrea Bocelli",
+        "genre": "Classical Crossover",
+        "year": 2020,
+        "no_of_songs": "2",
+        "img": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/0d/39/fb/0d39fbc2-98b1-4e9d-a8e9-159139834fa6/20UMGIM80226.rgb.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "name": "Classic Diamonds With The London Symphony Orchestra",
+        "artist": "Neil Diamond",
+        "genre": "Singer/Songwriter",
+        "year": 2020,
+        "no_of_songs": "4",
+        "img": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/84/dc/bd/84dcbda7-c5bb-357b-7a5e-6d0304b9a90f/190296823428.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "ghi"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "name": "10",
+        "artist": "The Piano Guys",
+        "genre": "Classical Crossover",
+        "year": 2019,
+        "no_of_songs": "2",
+        "img": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/74/31/b6/7431b62d-f80f-8297-9356-a5f6001bf798/886448635437.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "name": "Christmas",
+        "artist": "Dolly Parton",
+        "genre": "Holiday",
+        "year": 2017,
+        "no_of_songs": "3",
+        "img": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/84/dc/bd/84dcbda7-c5bb-357b-7a5e-6d0304b9a90f/190296823428.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "name": "Nights of the Dead, Legacy of the Beast: Live in Mexico City",
+        "artist": "Iron Maiden",
+        "genre": "Heavy Metal",
+        "year": 2020,
+        "no_of_songs": "4",
+        "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/96/ed/9a96ede3-1eac-d84a-b7b7-49ae7397ca2e/4050538647594.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "name": "Iron Maiden",
+        "artist": "The Piano Guys....",
+        "genre": "Heavy Metal",
+        "year": 2017,
+        "no_of_songs": "3",
+        "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/96/ed/9a96ede3-1eac-d84a-b7b7-49ae7397ca2e/4050538647594.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "17",
+        "name": "Kindred Spirits",
+        "artist": "Larkin Poe",
+        "genre": "Rock",
+        "year": 2018,
+        "no_of_songs": "4",
+        "img": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/41/87/8a/41878a01-621b-282c-fba2-07302f0a57f1/192641558757_Cover.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "18",
+        "name": "Pluto x Baby Pluto",
+        "artist": "Future & Lil Uzi Vert",
+        "genre": "Holiday",
+        "year": 2017,
+        "no_of_songs": "3",
+        "img": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/84/dc/bd/84dcbda7-c5bb-357b-7a5e-6d0304b9a90f/190296823428.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "19",
+        "name": "What You See Ain't Always What You Get (Deluxe Edition)",
+        "artist": "Luke Combs",
+        "genre": "Country",
+        "year": 2017,
+        "no_of_songs": "4",
+        "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/13/4a/11/134a11e7-35f1-a9e4-3f8c-a70443ca2e0a/886448691341.jpg/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "name": "A Drummer Boy Christmas",
+        "artist": "for KING & COUNTRY",
+        "genre": "Christmas",
+        "year": 2020,
+        "no_of_songs": "4",
+        "img": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/ba/46/4c/ba464c84-225a-4ffd-30aa-cdaf1d5aca47/080688042363.png/170x170bb.png",
+        "songs": [
+          {
+            "name": "abc"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          },
+          {
+            "name": "def"
+          }
+        ]
+      }
+    ],
+      "products": [
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 120,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "bags",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 25,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "price": 700,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "Solid Gold Petite Micropave ",
+      "price": 168,
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": "White Gold Plated Princess",
+      "price": 9.99,
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "price": 10.99,
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 9,
+      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+      "price": 64,
+      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 10,
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "price": 109,
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
+      }
+    },
+    {
+      "id": 11,
+      "title": "Silicon Power 256GB SSD SATA III 2.5",
+      "price": 109,
+      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      }
+    },
+    {
+      "id": 12,
+      "title": "WD 4TB Gaming Drive Portable External Hard Drive",
+      "price": 114,
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 13,
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 599,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 14,
+      "title": "Samsung 49-Inch 144Hz Curved Gaming Monitor Super Ultrawide  QLED ",
+      "price": 999.99,
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+    {
+      "id": 15,
+      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "price": 56.99,
+      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 16,
+      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "price": 295,
+      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": 17,
+      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "price": 399,
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 18,
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      "price": 985,
+      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 19,
+      "title": "Opna Women's Short Sleeve Moisture",
+      "price": 795,
+      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 20,
+      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+      "price": 129,
+      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    },
+    {
+      "id": 21,
+      "title": "POLESTAR Vintage 32 L College/ School/ Office/ Casual/ Travel Backpack",
+      "price": 579,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "bags",
+      "image": "https://m.media-amazon.com/images/I/818C-vmevNL._UX679_.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 22,
+      "title": "F Gear Luxur Brown 25 liter Laptop Backpack (2404)",
+      "price": 1033,
+      "description": "A fashionable laptop backpack. This full-featured pack makes space for everything essential with multiple zip pockets on the exterior, plus a ready-to-go interior with padded laptop compartment and other storage solutions. Pattern: Solid. Laptop Size: 16",
+      "category": "bags",
+      "image": "https://m.media-amazon.com/images/I/81RtwUjQiFL._SY879_.jpg",
+      "rating": {
+        "rate": 4.4,
+        "count": 165
+      }
+    },
+    {
+      "id": 23,
+      "title": "American Tourister Casual Backpack",
+      "price": 999,
+      "description": "Lightweight backpack made of durable double dot polyester fabric.Mesh Padding on back & shoulder strap to provide comfort & better back support",
+      "category": "bags",
+      "image": "https://m.media-amazon.com/images/I/81KEKEDFUcL._UY879_.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 908
+      }
+    },
+    {
+      "id": 24,
+      "title": "Arrow Men's Slim Shirt",
+      "price": 949,
+      "description": "Arrow's shirts are an undeniable choice when you want to look your best. This formal shirt features a point collar and full sleeve while the combination of fine tailoring and soft fabric gives you a smart & crisp look.",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/71OLkBVHc+L._UY879_.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 176
+      }
+    },
+    {
+      "id": 25,
+      "title": "Jack & Jones Men's Carrot Slim Jeans",
+      "price": 989,
+      "description": "Jack & Jones Men Casual Wear Mid-Rise Slim Fit Solid Blue Jeans With 5 pockets",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/71T8cJ+4YIL._UY879_.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 29
+      }
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": 1,
+      "productId": 7,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "productId": 25,
+      "quantity": 2
+    }
+  ]
+  }
+
