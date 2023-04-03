@@ -19,17 +19,17 @@ npm i json-server
 
 #### Step 3: Create server.js
 ```js
-const jsonServer = require('json-server')
+const jsonServer = require("json-server")
 
 const server = jsonServer.create()
 
-const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults()
+const router = jsonServer.router("db.json")
+const m"id"dlewares = jsonServer.defaults()
  
-server.use(middlewares)
-server.use('/api', router)
+server.use(m"id"dlewares)
+server.use("/api", router)
 server.listen(process.env.PORT || 5000, () => {
-  console.log('JSON Server is running')
+  console.log("JSON Server is running")
 })
 
 
@@ -40,10 +40,10 @@ server.listen(process.env.PORT || 5000, () => {
 ```js
 {
     "users": [
-        { "id": 1, "name":"Naresh Kumar H", "email":"nareshkumarh@live.com", 
+        { ""id"": 1, "name":"Naresh Kumar H", "email":"nareshkumarh@live.com", 
         "password":"pass123", "role": "USER"
         },
-        { "id": 2, "name":"Tushant", "email":"tushant@gmail.com", 
+        { ""id"": 2, "name":"Tushant", "email":"tushant@gmail.com", 
             "password":"pass123", "role": "ADMIN"
         }
     ],
@@ -70,14 +70,14 @@ Output:
 ```js
 [
  {
- id: 1,
+ "id": 1,
  name: "Naresh Kumar H",
  email: "nareshkumarh@live.com",
  password: "pass123",
  role: "USER"
  },
 {
- id: 2,
+ "id": 2,
  name: "Tushant",
  email: "tushant@gmail.com",
  password: "pass123",
@@ -94,7 +94,7 @@ http://localhost:5000/api/users/1
 Output:
 ```js
  {
- id: 1,
+ "id": 1,
  name: "Naresh Kumar H",
  email: "nareshkumarh@live.com",
  password: "pass123",
